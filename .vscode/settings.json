@@ -1,0 +1,9 @@
+{
+	"typescript.tsc.autoDetect": "off",
+	"files.exclude": {
+		"/Users/shuhuazhong/Desktop/Projects/PacMan/.vscode": true,
+		"/Users/shuhuazhong/Desktop/Projects/PacMan/Content": true,
+		"/Users/shuhuazhong/Desktop/Projects/PacMan/Intermediate": true,
+		"/Users/shuhuazhong/Desktop/Projects/PacMan/Saved": true
+	}
+}

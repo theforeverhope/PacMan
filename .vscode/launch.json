@@ -1,0 +1,90 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "PacMan (Debug)",
+			"request": "launch",
+			"preLaunchTask": "PacMan Mac Debug Build",
+			"program": "/Users/shuhuazhong/Desktop/Projects/PacMan/Binaries/Mac/PacMan-Mac-Debug.app/Contents/MacOS/PacMan-Mac-Debug",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		},
+		{
+			"name": "PacMan (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "PacMan Mac DebugGame Build",
+			"program": "/Users/shuhuazhong/Desktop/Projects/PacMan/Binaries/Mac/PacMan-Mac-DebugGame.app/Contents/MacOS/PacMan-Mac-DebugGame",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		},
+		{
+			"name": "PacMan (Development)",
+			"request": "launch",
+			"preLaunchTask": "PacMan Mac Development Build",
+			"program": "/Users/shuhuazhong/Desktop/Projects/PacMan/Binaries/Mac/PacMan.app/Contents/MacOS/PacMan",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		},
+		{
+			"name": "PacMan (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "PacMan Mac Shipping Build",
+			"program": "/Users/shuhuazhong/Desktop/Projects/PacMan/Binaries/Mac/PacMan-Mac-Shipping.app/Contents/MacOS/PacMan-Mac-Shipping",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		},
+		{
+			"name": "PacMan (Test)",
+			"request": "launch",
+			"preLaunchTask": "PacMan Mac Test Build",
+			"program": "/Users/shuhuazhong/Desktop/Projects/PacMan/Binaries/Mac/PacMan-Mac-Test.app/Contents/MacOS/PacMan-Mac-Test",
+			"args": [
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		},
+		{
+			"name": "PacManEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "PacManEditor Mac Debug Build",
+			"program": "/Users/Shared/Epic Games/UE_4.18/Engine/Binaries/Mac/UE4Editor-Mac-Debug.app/Contents/MacOS/UE4Editor-Mac-Debug",
+			"args": [
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-debug"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		},
+		{
+			"name": "PacManEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "PacManEditor Mac DebugGame Build",
+			"program": "/Users/Shared/Epic Games/UE_4.18/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
+			"args": [
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-debug"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		},
+		{
+			"name": "PacManEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "PacManEditor Mac Development Build",
+			"program": "/Users/Shared/Epic Games/UE_4.18/Engine/Binaries/Mac/UE4Editor.app/Contents/MacOS/UE4Editor",
+			"args": [
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject"
+			],
+			"cwd": "/Users/Shared/Epic Games/UE_4.18",
+			"type": "lldb"
+		}
+	]
+}

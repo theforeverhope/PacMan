@@ -1,0 +1,635 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"taskName": "PacMan Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacMan",
+				"Mac",
+				"Debug",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacMan Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacMan",
+				"Mac",
+				"Debug",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacMan Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacMan",
+				"Mac",
+				"DebugGame",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacMan Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacMan",
+				"Mac",
+				"DebugGame",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacMan Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacMan",
+				"Mac",
+				"Development",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacMan Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacMan",
+				"Mac",
+				"Development",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacMan Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacMan",
+				"Mac",
+				"Shipping",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacMan Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacMan",
+				"Mac",
+				"Shipping",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacMan Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacMan",
+				"Mac",
+				"Test",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacMan Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacMan",
+				"Mac",
+				"Test",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacMan IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacMan",
+				"IOS",
+				"Debug",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacMan IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacMan",
+				"IOS",
+				"Debug",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacMan IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacMan",
+				"IOS",
+				"DebugGame",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacMan IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacMan",
+				"IOS",
+				"DebugGame",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacMan IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacMan",
+				"IOS",
+				"Development",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacMan IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacMan",
+				"IOS",
+				"Development",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacMan IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacMan",
+				"IOS",
+				"Shipping",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacMan IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacMan",
+				"IOS",
+				"Shipping",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacMan IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacMan",
+				"IOS",
+				"Test",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacMan IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacMan",
+				"IOS",
+				"Test",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacMan HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacMan",
+				"HTML5",
+				"Debug",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacMan HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacMan",
+				"HTML5",
+				"Debug",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacMan HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacMan",
+				"HTML5",
+				"DebugGame",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacMan HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacMan",
+				"HTML5",
+				"DebugGame",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacMan HTML5 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacMan",
+				"HTML5",
+				"Development",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacMan HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacMan",
+				"HTML5",
+				"Development",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacMan HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacMan",
+				"HTML5",
+				"Shipping",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacMan HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacMan",
+				"HTML5",
+				"Shipping",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacMan HTML5 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacMan",
+				"HTML5",
+				"Test",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacMan HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacMan",
+				"HTML5",
+				"Test",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacManEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacManEditor",
+				"Mac",
+				"Debug",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacManEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacManEditor",
+				"Mac",
+				"Debug",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacManEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacManEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacManEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacManEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacManEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacManEditor",
+				"Mac",
+				"Development",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		},
+		{
+			"taskName": "PacManEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"PacManEditor",
+				"Mac",
+				"Development",
+				"/Users/shuhuazhong/Desktop/Projects/PacMan/PacMan.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_4.18"
+			}
+		}
+	]
+}
